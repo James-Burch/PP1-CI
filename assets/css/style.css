@@ -38,7 +38,7 @@ h1 {
     color: #F4C30B;
 }
 #menu {
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 3px;
     list-style-type: none;
     color: #F1D90E;
@@ -46,16 +46,18 @@ h1 {
 }
 #menu > li {
     margin-bottom: 2em;
+    border: 1px solid #F1D90E;
+    text-align: center;
 }
 .active {
-    border-bottom: 1px solid #F1D90E;
+    border-bottom: 3px solid #F1D90E;
 }
 /* Nav bar */
 nav {
     position: absolute;
     background-color: #0E26F1;
     width: 100%;
-    padding: 0 1rem;
+    padding: 1rem;
     left: 0;  
     top: 100%;
     display: none;
@@ -73,14 +75,9 @@ nav {
     font-size: 2rem;
 }
 /* Main */
-main {
-    background-color: #F1D90E;
-    flex: 1 0 auto;
-}
+
 /* Footer */
-footer {
-    background-color: aqua;
-}
+
 /**/
 /**/
 /**/
