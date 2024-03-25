@@ -37,15 +37,6 @@ h1 {
     letter-spacing: 2px;
     color: #F4C30B;
 }
-/* Nav bar */
-nav {
-    position: absolute;
-    background-color: #0E26F1;
-    width: 100%;
-    padding: 0 1rem;
-    left: 0;  
-    top: 100%;
-}
 #menu {
     text-transform: capitalize;
     letter-spacing: 3px;
@@ -58,6 +49,16 @@ nav {
 }
 .active {
     border-bottom: 1px solid #F1D90E;
+}
+/* Nav bar */
+nav {
+    position: absolute;
+    background-color: #0E26F1;
+    width: 100%;
+    padding: 0 1rem;
+    left: 0;  
+    top: 100%;
+    display: none;
 }
 /* Nav toggle */
 #nav-toggle:checked~nav {
