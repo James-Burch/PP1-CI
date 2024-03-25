@@ -1,3 +1,4 @@
+/* Google fonts import */
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -5,18 +6,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* General styles */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-transform: capitalize;
     letter-spacing: 2px;
     color: #F1D90E;
 }
-body {
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
 .hidden-heading {
     display: none;
 }
+
 /* Header */
 header {
     background-color: #0E26F1;
@@ -29,14 +38,17 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+
 header a {
     text-decoration: none;
     color: inherit;
 }
+
 h1 {
     letter-spacing: 2px;
     color: #F4C30B;
 }
+
 #menu {
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -44,24 +56,29 @@ h1 {
     color: #F1D90E;
     font-size: 110%;
 }
-#menu > li {
+
+#menu>li {
     margin-bottom: 2em;
     border: 1px solid #F1D90E;
     text-align: center;
 }
+
 .active {
     border-bottom: 1px solid #F1D90E;
 }
+
 /* Nav bar */
 nav {
     position: absolute;
     background-color: #0E26F1;
     width: 100%;
     padding: 1rem;
-    left: 0;  
+    left: 0;
     top: 100%;
     display: none;
+    opacity: 75%;
 }
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -74,14 +91,19 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main */
 main {
-    padding-top: 74px;
-   flex: 1 0 auto;
-   background-color: aqua;
-   flex-direction: column;
+    margin-top: 74px;
+    flex: 1 0 auto;
+    background-color: aqua;
+    flex-direction: column;
 }
+
 /* Footer */
+footer {
+    background-color: #5E0CF3;
+}
 
 /**/
 /**/
@@ -89,10 +111,7 @@ main {
 /**/
 
 /* Media query: larger and landscape phones */
-@media screen and (min-width: 576px) {
-    
-}
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {}
 
-}
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {}
