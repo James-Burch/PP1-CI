@@ -9,25 +9,60 @@
 h1, h2, h3 {
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: gold;
+    color: #F1D90E;
 }
 body {
-
+background-color: #53AC97;
 }
 .hidden-heading {
     display: none;
 }
 /* Header */
+header {
+    background-color: #0E26F1;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #fdfcfc;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 header a {
     text-decoration: none;
-    color-inherit
+    color: inherit;
 }
 /* Nav bar */
+nav {
+    position: absolute;
+    background-color: #0E26F1;
+    width: 100%;
+    padding: 0 1rem;
+    left: 0;  
+    top: 100%;
+}
 #menu {
     text-transform: capitalize;
-    letter-spacing: 2px;
-    color: gold;
+    letter-spacing: 3px;
     list-style-type: none;
+    color: #F1D90E;
+    font-size: 175%;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 /* Main */
 /* Footer */
@@ -35,3 +70,12 @@ header a {
 /**/
 /**/
 /**/
+
+/* Media query: larger and landscape phones */
+@media screen and (min-width: 576px) {
+    
+}
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+}
