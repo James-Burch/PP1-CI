@@ -12,7 +12,7 @@ h1, h2, h3 {
     color: #F1D90E;
 }
 body {
-background-color: #53AC97;
+
 }
 .hidden-heading {
     display: none;
@@ -33,6 +33,10 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+h1 {
+    letter-spacing: 2px;
+    color: #F4C30B;
+}
 /* Nav bar */
 nav {
     position: absolute;
@@ -47,10 +51,13 @@ nav {
     letter-spacing: 3px;
     list-style-type: none;
     color: #F1D90E;
-    font-size: 175%;
+    font-size: 110%;
+}
+#menu > li {
+    margin-bottom: 2em;
 }
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #F1D90E;
 }
 /* Nav toggle */
 #nav-toggle:checked~nav {
@@ -65,7 +72,14 @@ nav {
     font-size: 2rem;
 }
 /* Main */
+main {
+    background-color: #F1D90E;
+    flex: 1 0 auto;
+}
 /* Footer */
+footer {
+    background-color: aqua;
+}
 /**/
 /**/
 /**/
