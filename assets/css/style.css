@@ -111,7 +111,50 @@ footer {
 /**/
 
 /* Media query: larger and landscape phones */
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+
+}
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+/* Header */
+    nav {
+        position: relative;
+        display: block;
+        width: fit-content;
+        box-shadow: none;
+        padding-right: 1rem;
+}
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#menu > li {
+    padding-left: 1px;
+}
+.nav-toggle-label {
+    display: none;
+}
+#logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+
+/* Main */
+main {
+    margin-top: 166px;
+}
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Screens that are 1200px or larger */
+@media screen and (min-width: 1200px) {
+
+}
