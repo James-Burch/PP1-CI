@@ -24,7 +24,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #fdfcfc;
+    box-shadow: 0 2px 2px #5E0CF3;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -50,7 +50,7 @@ h1 {
     text-align: center;
 }
 .active {
-    border-bottom: 3px solid #F1D90E;
+    border-bottom: 1px solid #F1D90E;
 }
 /* Nav bar */
 nav {
@@ -75,7 +75,12 @@ nav {
     font-size: 2rem;
 }
 /* Main */
-
+main {
+    padding-top: 74px;
+   flex: 1 0 auto;
+   background-color: aqua;
+   flex-direction: column;
+}
 /* Footer */
 
 /**/
