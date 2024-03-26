@@ -166,13 +166,21 @@ main {
 }
 
 .contact-text h2 {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     text-align: center;
     text-decoration: underline;
 }
 .contact-text ul {
     list-style-type: none;
     text-align: center;
+}
+.contact-text a {
+    text-decoration: none;
+    color: #fcb935;
+}
+.contact-text li {
+    padding-bottom: 10px;
+
 }
 /* Location/Where to find us section */
 #location {}
@@ -246,7 +254,24 @@ footer {
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+    /* Header */
+    /* Nav bar */
+
+    /* Main */
+
+    /* Contact */
+    #contact {
+        font-size: 200%;
+    }
+    .contact-text a:hover {
+        color: #121f28;
+        background-color: #fcb935;
+
+    }
+    /* */
+    /**/
+}
 
 /* Screens that are 1200px or larger */
 @media screen and (min-width: 1200px) {}
