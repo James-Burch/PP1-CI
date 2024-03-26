@@ -20,6 +20,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background: url("../images/logo.image.jpeg") no-repeat center/cover;
+    color: #F1D90E;
 }
 
 .hidden-heading {
@@ -28,7 +30,7 @@ body {
 
 /* Header */
 header {
-    background-color: #0E26F1;
+    background-color: none;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -99,14 +101,24 @@ main {
     flex-direction: column;
 }
 
-/* Hero Image */
- #hero {
-    background-image: url("../images/Screenshot\ 2024-03-25\ at\ 11.47.02\ pm.png") no-repeat center center/cover;
-    height: 600px;
+/* Welcome section */
+ #welcome {
+    background: url("../images/Screenshot.1.png") no-repeat center center/cover;
+    height: 400px;
     width: 100%;
     position: relative;
  }
+/* Contact us section */
+#contact {
+    background: url("../images/Screenshot.2.png") no-repeat center center/cover;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+/* Location/Where to find us section */
+#location {
 
+}
 /* Footer */
 footer {
     background-color: #5E0CF3;
