@@ -28,6 +28,20 @@ body {
     display: none;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("../images/Screenshot.1.png");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 /* Header */
 header {
     background: url("../images/logo.image2.jpeg") no-repeat center/cover;
@@ -105,14 +119,32 @@ main {
 /* Welcome section */
  #welcome {
     background: url("../images/Screenshot.1.png") no-repeat center center/cover;
-    height: 400px;
+    height: 600px;
     width: 100%;
     position: relative;
+    text-transform: bold;
+ }
+ .welcome-text {
+    position: absolute;
+    text-align: start;
+    padding: 50px 20px;
+    background-color: rgba(18, 31, 40, 0.7);
+    height: 400px;
+    top: 100px;
+    width: 80%;
+    margin-left: 10%;
+ }
+ .welcome-text h2 {
+    padding-bottom: 20px;
+    text-align: center;
+ }
+ .welcome-text {
+
  }
 /* Contact us section */
 #contact {
     background: url("../images/Screenshot.2.png") no-repeat center center/cover;
-    height: 400px;
+    height: 600px;
     width: 100%;
     position: relative;
 }
