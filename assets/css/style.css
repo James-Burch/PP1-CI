@@ -177,6 +177,12 @@ main {
 /* Location/Where to find us section */
 #location {}
 
+#map {
+    height: 200px;
+    width: 100%;
+}
+
+
 /* Footer */
 footer {
     background-color: #5E0CF3;
@@ -227,6 +233,15 @@ footer {
     /* Main */
     main {
         margin-top: 166px;
+    }
+
+    /* Location section */
+    #map {
+        height: 400px;
+        width: 50%;
+    }
+    #location {
+        display: flex;
     }
 }
 
