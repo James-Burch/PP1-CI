@@ -96,9 +96,16 @@ nav {
 main {
     margin-top: 74px;
     flex: 1 0 auto;
-    background-color: aqua;
     flex-direction: column;
 }
+
+/* Hero Image */
+ #hero {
+    background-image: url("../images/Screenshot\ 2024-03-25\ at\ 11.47.02\ pm.png") no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+ }
 
 /* Footer */
 footer {
@@ -133,6 +140,7 @@ footer {
 }
 #menu > li {
     padding-left: 1px;
+    border: none;
 }
 .nav-toggle-label {
     display: none;
