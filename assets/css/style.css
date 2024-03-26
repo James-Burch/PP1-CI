@@ -183,11 +183,26 @@ main {
 
 }
 /* Location/Where to find us section */
-#location {}
+#location {
+    width: 100%;
+    padding: 0 10px;
+}
 
 #map {
     height: 200px;
     width: 100%;
+}
+.address {
+    text-align: center;
+    background-color: rgba(18, 31, 40);
+    height: 200px;
+}
+.address li {
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+.address h2 {
+padding-bottom: 20px;
 }
 
 
@@ -246,10 +261,11 @@ footer {
     /* Location section */
     #map {
         height: 400px;
-        width: 50%;
+        width: 75%;
     }
-    #location {
-        display: flex;
+
+    .address {
+        width: 25%;
     }
 }
 
