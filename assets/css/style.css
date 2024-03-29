@@ -188,7 +188,7 @@ main {
 }
 /* Reasons section */
 #reasons {
-    height: 800px;
+    height: 700px;
     width: 100%;
     position: relative;
 }
@@ -197,11 +197,14 @@ main {
     text-align: center;
     padding: 50px 10px;
     background-color: rgba(18, 31, 40, 0.7);
-    height: 650px;
+    height: 500px;
     top: 100px;
     width: 80%;
     margin-left: 10%;
     font-size: 130%;
+}
+.reasons-text ul {
+    list-style-type: none;
 }
 /* Location/Where to find us section */
 #location {
@@ -282,6 +285,7 @@ footer {
     }
 
     /* Footer */
+
     /* Location section */
     #location {
         display: flex;
@@ -295,7 +299,9 @@ footer {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     /* Header */
+
     /* Nav bar */
+    #menu
 
     /* Main */
 #welcome {
