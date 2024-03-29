@@ -153,6 +153,7 @@ main {
     width: 100%;
     position: relative;
 }
+
 .contact-text {
     position: absolute;
     text-align: center;
@@ -170,18 +171,22 @@ main {
     text-align: center;
     text-decoration: underline;
 }
+
 .contact-text ul {
     list-style-type: none;
     text-align: center;
 }
+
 .contact-text a {
     text-decoration: none;
     color: #fcb935;
 }
+
 .contact-text li {
     padding-bottom: 10px;
 
 }
+
 /* Location/Where to find us section */
 #location {
     width: 100%;
@@ -191,23 +196,26 @@ main {
     height: 200px;
     width: 100%;
 }
+
 .address {
     text-align: center;
     background-color: rgba(18, 31, 40);
     height: 200px;
 }
+
 .address li {
     list-style-type: none;
     padding-bottom: 5px;
 }
+
 .address h2 {
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 
 /* Footer */
 footer {
-    background-color: #5E0CF3;
+    background-color: #121f28;
 }
 
 /**/
@@ -257,15 +265,17 @@ footer {
         margin-top: 166px;
     }
 
+    /* Footer */
     /* Location section */
-    #map {
-        height: 400px;
-        width: 75%;
+    #location {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1400px;
+        margin: 0 auto;
     }
 
-    .address {
-        width: 25%;
-    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -279,11 +289,13 @@ footer {
     #contact {
         font-size: 200%;
     }
+
     .contact-text a:hover {
         color: #121f28;
         background-color: #fcb935;
 
     }
+
     /* */
     /**/
 }
