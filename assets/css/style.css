@@ -135,6 +135,7 @@ main {
     width: 80%;
     margin-left: 10%;
     font-size: 130%;
+    border-radius: 20px;
 }
 
 .welcome-text h2 {
@@ -164,6 +165,7 @@ main {
     width: 80%;
     margin-left: 10%;
     font-size: 130%;
+    border-radius: 20px;
 }
 
 .contact-text h2 {
@@ -202,6 +204,7 @@ main {
     width: 80%;
     margin-left: 10%;
     font-size: 130%;
+    border-radius: 20px;
 }
 .reasons-text ul {
     list-style-type: none;
@@ -220,6 +223,7 @@ main {
     text-align: center;
     background-color: rgba(18, 31, 40);
     height: 200px;
+    border-radius: 20px;
 }
 
 .address li {
