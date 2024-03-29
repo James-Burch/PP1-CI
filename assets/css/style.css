@@ -186,7 +186,23 @@ main {
     padding-bottom: 10px;
 
 }
-
+/* Reasons section */
+#reasons {
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+.reasons-text {
+    position: absolute;
+    text-align: center;
+    padding: 50px 10px;
+    background-color: rgba(18, 31, 40, 0.7);
+    height: 650px;
+    top: 100px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 130%;
+}
 /* Location/Where to find us section */
 #location {
     width: 100%;
@@ -282,7 +298,12 @@ footer {
     /* Nav bar */
 
     /* Main */
-
+#welcome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
     /* Contact */
     #contact {
         font-size: 200%;
