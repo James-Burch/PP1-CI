@@ -41,6 +41,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 hr {
     color: #fcb935;
 }
@@ -146,30 +147,40 @@ main {
 .welcome-text p {
     padding-bottom: 20px;
 }
+
 /* Reasons section */
 #reasons {
     top: 100%;
     width: 100%;
-    background-color: rgba(18, 31, 40, 95%) ;
+    background-color: rgba(18, 31, 40, 95%);
 }
-#reasons1, #reasons2 {
+
+#reasons1,
+#reasons2 {
     width: 80%;
     margin: 20px auto;
     position: relative;
 }
+
 #reasons h2 {
     padding: 20px 0 20px 0;
     font-size: 150%;
     text-transform: uppercase;
     text-align: center;
 }
-#reasons1 p, #reasons2 p {
+
+#reasons1 p,
+#reasons2 p {
     padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
+
 #reasons hr {
     border: 1px solid #fcb935;
     margin: 3px 0;
 }
+
 /* Image for reasons section */
 #circle-image {
     background: url('../images/Screenshot.3.png') no-repeat top center / cover;
@@ -181,11 +192,13 @@ main {
     max-width: 300px;
     max-height: 300px;
 }
+
 #reasons-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 /* Contact us section */
 #contact {
     background: url("../images/Screenshot.1.png") no-repeat center center/cover;
@@ -260,11 +273,6 @@ footer {
     background-color: #121f28;
 }
 
-/**/
-/**/
-/**/
-/**/
-
 /* Media query: larger and landscape phones */
 @media screen and (min-width: 576px) {}
 
@@ -272,13 +280,13 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header */
-       nav {
+    nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-       }
+    }
 
     #menu>li {
         padding-left: 1px;
@@ -300,11 +308,26 @@ footer {
         margin-top: 108px;
         font-size: 145%;
     }
-/* Reasons section */
-#reasons1, #reasons2 {
-    display: flex;
-    flex-direction: column;
-}
+
+    /* Reasons section */
+    #reasons1,
+    #reasons2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #reasons1>div, #reasons2>div {
+        width: 75%;
+    }
+    #reasons2 {
+        text-align: end;
+        align-self: flex-end;
+    }
+    #reasons h2 {
+        text-align: center;
+        margin: 20px 100px 20px 100px;
+    }
+
     /* Footer */
 
     /* Location section */
@@ -329,24 +352,27 @@ footer {
         width: 100%;
         padding-right: 1rem;
         max-height: fit-content;
-       }
-       #menu {
+    }
+
+    #menu {
         display: flex;
         justify-content: space-evenly;
         font-size: 150%;
-       text-align: center;
-       }
+        text-align: center;
+    }
+
     #menu a:hover {
         border-bottom: 1px solid #fcb935;
     }
 
     /* Main */
-#welcome {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
+    #welcome {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
     /* Contact */
     #contact {
         font-size: 150%;
