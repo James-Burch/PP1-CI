@@ -15,7 +15,9 @@ h3 {
     letter-spacing: 2px;
     color: #fcb935;
 }
-
+hr {
+    border: 1px solid #fcb935;
+}
 body {
     min-height: 100vh;
     display: flex;
@@ -64,7 +66,7 @@ h1 {
     letter-spacing: 2px;
     color: #fcb935;
     background-color: #121f28;
-    opacity: 80%;
+    opacity: 90%;
     border-radius: 20px;
     text-align: center;
     padding: 15px 0 10px 60px;
@@ -244,24 +246,30 @@ main {
 /* Location/Where to find us section */
 #location {
     width: 100%;
+    align-self: center;
 }
+
 #map {
     width: 100%;
 }
+
 .address {
     text-align: center;
-    background-color: rgba(18, 31, 40);
+    background-color: rgba(18, 31, 40, 0.9);
     height: 200px;
     border-radius: 20px;
+    margin: 20px 20%;
 }
 
 .address li {
     list-style-type: none;
-    padding-bottom: 5px;
+    padding: 5px 0 5px 0;
 }
 
 .address h2 {
-    padding-bottom: 20px;
+    padding: 20px 0 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 
@@ -302,6 +310,7 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
+        font-weight: bold;
     }
 
     h1 {
@@ -315,7 +324,7 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-        opacity: 80%;
+        opacity: 90%;
     }
 
     #menu {
@@ -360,7 +369,7 @@ footer {
     #reasons1>div,
     #reasons2>div {
         width: 75%;
-        padding: 0 20px;
+        padding: 0 40px;
     }
 
     #reasons2>div {
@@ -382,8 +391,12 @@ footer {
         align-items: center;
         max-width: 1400px;
         margin: 0 auto;
+        height: 300px;
     }
 
+    .address {
+        height: 80%;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -436,14 +449,16 @@ footer {
         display: flex;
         flex-direction: row;
     }
+
     .address {
         order: 1;
+        height: 40%;
     }
+
     #map {
-        width: 80%;
-        height: 100%;
         padding: 20px 20px;
     }
+
     /**/
 }
 
