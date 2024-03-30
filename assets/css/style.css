@@ -126,6 +126,7 @@ main {
     width: 100%;
     position: relative;
     text-transform: bold;
+    top: 100%;
 }
 
 .welcome-text {
@@ -157,6 +158,7 @@ main {
     width: 100%;
     position: relative;
     margin: 20px auto;
+    top: 100%;
 }
 
 .contact-text {
@@ -198,6 +200,7 @@ main {
     height: 700px;
     margin: 20px auto;
     position: relative;
+    top: 100%;
 }
 .reasons-text {
     position: absolute;
