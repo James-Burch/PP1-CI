@@ -43,6 +43,7 @@ body {
 
 /* Header */
 header {
+    background-color: #121f28;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -291,6 +292,18 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header */
+    header {
+       background: none;
+        padding: 0 1rem;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        min-height: 74px;
+        box-shadow: 2px #121f28;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
     nav {
         display: block;
         position: relative;
