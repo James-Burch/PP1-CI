@@ -248,7 +248,10 @@ main {
     width: 100%;
     align-self: center;
 }
-
+#location hr{
+    width: 75%;
+    margin: 0 auto;
+}
 #map {
     width: 100%;
 }
@@ -395,7 +398,7 @@ footer {
     }
 
     .address {
-        height: 80%;
+        padding: 20px 20px 40px 20px;
     }
 }
 
