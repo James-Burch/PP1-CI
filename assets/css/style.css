@@ -150,7 +150,42 @@ main {
 .welcome-text p {
     padding-bottom: 20px;
 }
-
+/* Reasons section */
+#reasons {
+    width: 80%;
+    height: 700px;
+    margin: 20px auto;
+    position: relative;
+    top: 100%;
+}
+.reasons-text {
+    position: absolute;
+    text-align: center;
+    padding: 50px 10px;
+    background-color: rgba(18, 31, 40, 0.9);
+    height: 500px;
+    top: 100px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 130%;
+    border-radius: 20px;
+}
+/* Image for reasons section */
+#circle-image {
+    background: url('../images/Screenshot.3.png') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+#reasons-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Contact us section */
 #contact {
     background: url("../images/Screenshot.2.png") no-repeat center center/cover;
@@ -194,42 +229,7 @@ main {
     padding-bottom: 10px;
 
 }
-/* Reasons section */
-#reasons {
-    width: 80%;
-    height: 700px;
-    margin: 20px auto;
-    position: relative;
-    top: 100%;
-}
-.reasons-text {
-    position: absolute;
-    text-align: center;
-    padding: 50px 10px;
-    background-color: rgba(18, 31, 40, 0.9);
-    height: 500px;
-    top: 100px;
-    width: 80%;
-    margin-left: 10%;
-    font-size: 130%;
-    border-radius: 20px;
-}
-/* Image for reasons section */
-#circle-image {
-    background: url('../images/Screenshot.3.png') no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    /* Makes the square image into a circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-#reasons-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 /* Location/Where to find us section */
 #location {
     width: 100%;
