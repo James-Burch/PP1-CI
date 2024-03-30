@@ -245,6 +245,9 @@ main {
 #location {
     width: 100%;
 }
+#map {
+    width: 100%;
+}
 .address {
     text-align: center;
     background-color: rgba(18, 31, 40);
@@ -320,9 +323,10 @@ footer {
     }
 
     #menu>li {
-        padding-left: 1px;
+        padding-left: 10px;
         border: none;
         margin: 0 0 0 0;
+        text-align: center;
     }
 
     .nav-toggle-label {
@@ -379,6 +383,7 @@ footer {
         max-width: 1400px;
         margin: 0 auto;
     }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
