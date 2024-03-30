@@ -283,6 +283,10 @@ footer {
         padding-right: 1rem;
     }
 
+    #menu {
+        display: flex;
+    }
+
     #menu>li {
         padding-left: 1px;
         border: none;
@@ -311,14 +315,18 @@ footer {
         flex-direction: column;
         width: 100%;
     }
-    #reasons1>div, #reasons2>div {
-        width: 100%;
+
+    #reasons1>div,
+    #reasons2>div {
+        width: 75%;
         padding: 0 20px;
     }
-    #reasons2 {
+
+    #reasons2>div {
         text-align: end;
         align-self: flex-end;
     }
+
     #reasons h2 {
         text-align: center;
         margin: 20px 100px 20px 100px;
@@ -353,7 +361,7 @@ footer {
     #menu {
         display: flex;
         justify-content: space-evenly;
-        font-size: 150%;
+        font-size: 130%;
         text-align: center;
     }
 
@@ -385,4 +393,24 @@ footer {
 }
 
 /* Screens that are 1200px or larger */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+    #reasons1>div {
+        align-self: flex-end;
+    }
+    #reasons2>div {
+        align-self: flex-start;
+    }
+    #reasons1 {
+        order: 0;
+    }
+    #reasons-image {
+        order: 1;
+    }
+    #reasons2 {
+        order: 2;
+    }
+}
