@@ -67,6 +67,7 @@ h1 {
     opacity: 80%;
     border-radius: 20px;
     text-align: center;
+    padding: 15px 0 10px 60px;
 }
 
 #menu {
@@ -96,7 +97,6 @@ nav {
     left: 0;
     top: 100%;
     display: none;
-    opacity: 80%;
     border-radius: 20px;
 }
 
@@ -304,12 +304,17 @@ footer {
         justify-content: space-between;
         align-items: baseline;
     }
+    h1 {
+        text-align: center;
+        padding: 0 0 0 0;
+    }
     nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        opacity: 80%;
     }
 
     #menu {
@@ -319,6 +324,7 @@ footer {
     #menu>li {
         padding-left: 1px;
         border: none;
+        margin: 0 0 0 0;
     }
 
     .nav-toggle-label {
