@@ -33,7 +33,7 @@ body {
 
 .parallax {
     /* The image used */
-    background-image: url("../images/Screenshot.2.png");
+    background-image: url("../images/screenshot.2.png");
 
     /* Set a specific height */
     min-height: 500px;
@@ -188,7 +188,7 @@ main {
 
 /* Image for reasons section */
 #circle-image {
-    background: url('../images/Screenshot.3.png') no-repeat top center / cover;
+    background: url('../images/screenshot.3.png') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -206,7 +206,7 @@ main {
 
 /* Contact us section */
 #contact {
-    background: url("../images/Screenshot.1.png") no-repeat center center/cover;
+    background: url("../images/screenshot.1.png") no-repeat center center/cover;
     height: 600px;
     width: 100%;
     position: relative;
@@ -250,6 +250,7 @@ main {
 #location {
     width: 100%;
     align-self: center;
+    padding-bottom: 65px;
 }
 
 #location hr {
@@ -309,7 +310,19 @@ footer {
 
 
 /* Treatments page css*/
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/screenshot.3.png");
 
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* Main */
 #treatments-title {
     height: 100vh;
@@ -326,25 +339,30 @@ footer {
     padding-left: 20px;
 
 }
+.solidblock {
+    height: 20px;
+    background-color: #121f28;
+}
 /* Treatments section */
+  /* Styling all images in treamtent section*/
+  #treatments img {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
 #treatments {
     position: absolute;
     text-align: center;
-    padding: 50px 10px;
-    background-color: rgba(18, 31, 40, 0.7);
-    width: 80%;
-    margin: 10%;
+    background-color: rgba(18, 31, 40, 0.9);
+    width: 100%;
     font-size: 130%;
-    border-radius: 20px;
+    padding: 50px;
 }
-#treatments h2 {
+#treatments h2,h3 {
     text-transform: uppercase;
     padding: 10px;
 }
-.treatments-list {
-    padding: 10px 0 0 0;
-}
-
 /* Media query: larger and landscape phones */
 @media screen and (min-width: 576px) {}
 
