@@ -128,7 +128,7 @@ main {
 /* Welcome section */
 #welcome {
     width: 100%;
-    height: 600px;
+    height: 75vh;
     position: relative;
     top: 100%;
 }
@@ -250,7 +250,8 @@ main {
 #location {
     width: 100%;
     align-self: center;
-    padding-bottom: 65px;
+    padding-bottom: 60px;
+    margin: 0px auto;
 }
 
 #location hr {
@@ -267,10 +268,10 @@ main {
 
 .address {
     text-align: center;
-    background-color: rgba(18, 31, 40, 0.9);
+    background-color: rgba(18, 31, 40);
     height: 200px;
-    border-radius: 20px;
-    margin: 20px 20%;
+    width: 100%;
+    border-radius: 0px;
 }
 
 .address li {
@@ -457,12 +458,27 @@ footer {
 
     /* Location section */
    .address {
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 20px 0px 0px 20px;
+   }
+   #location {
+    gap: 0.7rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    max-width: 1400px;
+    margin: 20px auto;
    }
-
+   .map iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 0px 20px 20px 0px;
+   }
+}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -509,14 +525,13 @@ footer {
     }
 
     /* Location */
-#location {
-    display: flex;
-    justify-content: center;
-}
-iframe {
-    height: 500px;
-    width: 75%;
-}
+    #location {
+        gap: 0.7rem;
+        display: flex;
+        justify-content: center;
+        max-width: 1400px;
+        margin: 20px auto;
+       }
     /**/
 }
 
