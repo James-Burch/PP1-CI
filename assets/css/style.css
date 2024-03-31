@@ -102,6 +102,7 @@ nav {
     top: 100%;
     display: none;
     border-radius: 20px;
+    box-shadow: rgba(18, 31, 40, 0.9);
 }
 
 /* Nav toggle */
@@ -286,6 +287,9 @@ main {
 /* Footer */
 footer {
     background-color: #121f28;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 #social-media i {
@@ -300,6 +304,45 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
     padding: 20px 20px;
+}
+
+
+
+/* Treatments page css*/
+
+/* Main */
+#treatments-title {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(18, 31, 40, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+#treatments-title h2 {
+    font-size: 400%;
+    text-align: center;
+    padding-left: 20px;
+
+}
+/* Treatments section */
+#treatments {
+    position: absolute;
+    text-align: center;
+    padding: 50px 10px;
+    background-color: rgba(18, 31, 40, 0.7);
+    width: 80%;
+    margin: 10%;
+    font-size: 130%;
+    border-radius: 20px;
+}
+#treatments h2 {
+    text-transform: uppercase;
+    padding: 10px;
+}
+.treatments-list {
+    padding: 10px 0 0 0;
 }
 
 /* Media query: larger and landscape phones */
