@@ -395,21 +395,12 @@ footer {
     /* Footer */
 
     /* Location section */
-    #location>div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .address {
-        height: 350px;
-    }
-    .map iframe {
-        width: 75%;
-        height: 350px;
-        border: 0;
-        border-radius: 20px;
-    }
+   .address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
 
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -457,22 +448,14 @@ footer {
     }
 
     /* Location */
-    #location>div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .address {
-        height: 350px;
-        width: 25%;
-    }
-    .map iframe {
-        width: 75%;
-        height: 350px;
-        border: 0;
-        border-radius: 20px;
-    }
+#location {
+    display: flex;
+    justify-content: center;
+}
+iframe {
+    height: 500px;
+    width: 75%;
+}
     /**/
 }
 
