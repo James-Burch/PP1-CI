@@ -403,9 +403,11 @@ h3 {
     color: #121f28;
   }
 /* Media query: larger and landscape phones */
+
 @media screen and (min-width: 576px) {}
 
 /* Media query: tablets and larger (768px and up) */
+
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -418,7 +420,7 @@ h3 {
         min-height: 74px;
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: center;
         font-weight: bold;
     }
 
@@ -494,6 +496,7 @@ h3 {
     /* Footer */
 
     /* Location section */
+
     .address {
         height: 300px;
         width: 25%;
@@ -525,6 +528,7 @@ h3 {
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
+
 @media screen and (min-width: 992px) {
     /* Header */
 
@@ -567,14 +571,17 @@ h3 {
         background-color: #fcb935;
 
     }
-
-   
-
-    /**/
 }
 
 /* Screens that are 1200px or larger */
+
 @media screen and (min-width: 1200px) {
+   /* Header */
+   nav {
+    font-size: 120%;
+   }
+   
+    /* Main */
     #benefits {
         display: flex;
         flex-direction: row;
