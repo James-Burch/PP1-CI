@@ -103,8 +103,8 @@ nav {
     left: 0;
     top: 100%;
     display: none;
-    border-radius: 20px;
     box-shadow: 0 2px 2px #121f28;
+    border-radius: 0 0 20px 20px;
 }
 
 /* Nav toggle */
@@ -406,6 +406,84 @@ h3 {
     background-color: #fcb935;
     color: #121f28;
   }
+  
+  
+  /* Booking page */
+  #booking-form {
+    padding: 12% 0 24% 0;
+  }
+  form h2 {
+    padding: 0 0 20px 0;
+    text-transform: uppercase;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(18, 31, 40, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fcb935;
+    text-align: center;
+  }
+  textarea {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  input[type="radio"] {
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+
+  .treatment-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .treatment-option {
+    flex: 0 0 calc(33.33% - 10px);
+  }
+
+  button[type="submit"] {
+    background-color: #fcb935;
+    color: #121f28;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+  }
+
+
+
 /* Media query: larger and landscape phones */
 
 @media screen and (min-width: 576px) {}

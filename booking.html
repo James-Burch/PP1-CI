@@ -30,23 +30,111 @@
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="treatments.html">Treatments</a></li>
-                <li>Contact Us</li>
+                <li><a href="index.html#contact">Contact Us</a></li>
                 <li><a href="booking.html" class="active">Book an appointment</a></li>
             </ul>
 
         </nav>
     </header>
     <main>
-        
-        <section>
+        <section id="booking-form">
+            <form action="submit.php" method="post">
+                <h2>fill the form below to send a booking enquiry</h2>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required>
 
-        </section>
-        <section>
+                <label for="lastname">Surname:</label>
+                <input type="text" id="lastname" name="lastname" required>
 
-        </section>
-        <section>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
 
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="age">Age:</label>
+                <select id="age" name="age" required>
+                    <option value="">Select Age Range</option>
+                    <option value="18to30">18 - 30</option>
+                    <option value="31to40">31 - 40</option>
+                    <option value="41to50">41 - 50</option>
+                    <option value="51to60">51 - 60</option>
+                    <option value="over60">Over 60</option>
+                </select>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                    <option value="preferNotToSay">Prefer not to say</option>
+                </select>
+
+                <div class="treatment-group">
+                    <h3>Select a Treatment</h3>
+                    <div class="treatment-option">
+                        <input type="radio" id="treatment1" name="treatment" value="treatment1">
+                        <label for="treatment1">Full Body MOT</label>
+                        <p>£80</p>
+                    </div>
+
+                    <div class="treatment-option">
+                        <input type="radio" id="treatment2" name="treatment" value="treatment2">
+                        <label for="treatment2">1 Hour Appointment</label>
+                        <p>£60</p>
+                    </div>
+
+                    <div class="treatment-option">
+                        <input type="radio" id="treatment3" name="treatment" value="treatment3">
+                        <label for="treatment3">Upper/Lower Body</label>
+                        <p>£45</p>
+                    </div>
+                </div>
+
+                <div class="treatment-group">
+                    <div class="treatment-option">
+                        <input type="radio" id="treatment4" name="treatment" value="treatment4">
+                        <label for="treatment4">Full Body MOT + Programme</label>
+                        <p>£150</p>
+                    </div>
+
+                    <div class="treatment-option">
+                        <input type="radio" id="treatment5" name="treatment" value="treatment5">
+                        <label for="treatment5">Injury Support Package</label>
+                        
+                    </div>
+
+                    <div class="treatment-option">
+                        <input type="radio" id="treatment6" name="treatment" value="treatment6">
+                        <label for="treatment6">One-to-one Coaching</label>
+                        
+                    </div>
+                </div>
+                <label for="problemDescription">Problem Description:</label>
+                <textarea id="problemDescription" name="problemDescription" rows="4"
+                    placeholder="Enter a description of your injury or reason for booking here (optional)"></textarea>
+                <div class="terms">
+                    <h3>Information About Booking</h3>
+                    <p>Once you have filled out the above form, I will be in contact with yourself if you are a new
+                        client to discuss prior to approving your appointment. I will then book you in for the desired
+                        date and time.
+                        Once you have confirmed with myself the date and time you are now booked in, if at any time up
+                        until 24 hours prior to your appointment you need to cancel or reschedule there will be no
+                        charge and your date can be changed with no issue. However, if you want to reschedule, cancel or
+                        miss your appointment I will require you be charged for this appointment plus the next appointment upon
+                        booking the new appointment.</p>
+                        <br>
+                    <label for="terms">Check this box to confirm you agree to the terms of booking</label>
+                    <input type="checkbox" name="terms" id="terms" required>
+                </div>
+                <button type="submit">Send Booking Enquiry</button>
+            </form>
         </section>
+
+
+
+
     </main>
     <footer>
         <ul id="social-media">
