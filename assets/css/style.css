@@ -383,7 +383,28 @@ h3 {
     text-transform: uppercase;
     padding: 10px;
 }
-
+/* Footer button */
+#book {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.booking-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #121f28; /* Change color as needed */
+    color: #fcb935;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 200%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-btn:hover {
+    /* Invert colours when hovering to show when selected*/
+    background-color: #fcb935;
+    color: #121f28;
+  }
 /* Media query: larger and landscape phones */
 @media screen and (min-width: 576px) {}
 
