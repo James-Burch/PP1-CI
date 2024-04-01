@@ -93,6 +93,7 @@ h1 {
 /* Nav bar */
 nav {
     position: absolute;
+    background-color: #121f28;
     width: 100%;
     padding: 1rem;
     left: 0;
@@ -435,6 +436,7 @@ h3 {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        background: none;
     }
 
     #menu {
@@ -571,6 +573,11 @@ h3 {
         background-color: #fcb935;
 
     }
+    /* Treatments page footer */
+    #social-media {
+        display: none;
+    }
+
 }
 
 /* Screens that are 1200px or larger */
