@@ -26,11 +26,12 @@ body {
     flex-direction: column;
     color: #fcb935;
 }
-
+.nomargin {
+    margin: 0px;
+}
 .hidden-heading {
     display: none;
 }
-
 .parallax {
     /* The image used */
     background-image: url("../images/screenshot.2.png");
@@ -370,7 +371,13 @@ footer {
     font-size: 130%;
     padding: 50px;
 }
-
+#treatments a {
+    color: #fcb935;
+}
+#treatments a:hover {
+    color: #121f28;
+    background-color: #fcb935;
+}
 #treatments h2,
 h3 {
     text-transform: uppercase;
