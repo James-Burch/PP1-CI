@@ -66,9 +66,7 @@ header a {
 
 h1 {
     letter-spacing: 2px;
-    color: #fcb935;
-    background-color: #121f28;
-    opacity: 90%;
+    color: #fcb935;   
     border-radius: 20px;
     text-align: center;
     padding: 15px 0 10px 60px;
@@ -95,7 +93,6 @@ h1 {
 /* Nav bar */
 nav {
     position: absolute;
-    background-color: #121f28;
     width: 100%;
     padding: 1rem;
     left: 0;
@@ -299,7 +296,6 @@ footer {
     position: fixed;
     width: 100%;
 }
-
 #social-media i {
     color: #fcb935;
     text-decoration: none;
@@ -332,6 +328,7 @@ footer {
 }
 
 /* Main */
+/* Treatments section */
 #treatments-title {
     height: 100vh;
     width: 100%;
@@ -354,7 +351,7 @@ footer {
     background-color: #121f28;
 }
 
-/* Treatments section */
+
 /* Styling all images in treamtent section*/
 #treatments img {
     max-height: 100%;
@@ -413,7 +410,7 @@ h3 {
 
     /* Header */
     header {
-        background: none;
+        background-color: rgba(18, 31, 40, 0.9);
         padding: 0 1rem;
         position: fixed;
         z-index: 99;
@@ -436,7 +433,6 @@ h3 {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-        opacity: 90%;
     }
 
     #menu {
