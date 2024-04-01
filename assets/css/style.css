@@ -32,6 +32,10 @@ body {
 .hidden-heading {
     display: none;
 }
+img {
+    max-width: 50vh;
+    max-height: 50vh;
+}
 .parallax {
     /* The image used */
     background-image: url("../images/screenshot.2.png");
@@ -100,7 +104,7 @@ nav {
     top: 100%;
     display: none;
     border-radius: 20px;
-    box-shadow: rgba(18, 31, 40, 0.9);
+    box-shadow: 0 2px 2px #121f28;
 }
 
 /* Nav toggle */
@@ -573,8 +577,10 @@ h3 {
         background-color: #fcb935;
 
     }
-    /* Treatments page footer */
+
+    /* Treatments Footer */
     #social-media {
+        /* Remove social media bar to allow space for appointment booking button */
         display: none;
     }
 
@@ -613,4 +619,24 @@ h3 {
     #reasons2 {
         order: 2;
     }
+        /* Treatment Page */
+.treatment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .treatment-text {
+    flex: 1;
+    margin: 0 20px 20px 0;
+  }
+
+  .treatment-img {
+    flex: 0 0 30%;
+    order: 1;
+  }
 }
