@@ -5,4 +5,4 @@ Realign is a real business that specialises in deep tissue massage, sports massa
 ## Ongoing Porject
 I would like to mention that I am challenging myself to keep this as an on-going project that will eventually be a deployed project that will be used as the official website for 'Realign' where clients can book appointments, get information on treatments and eventually have their own accounts with access granted to more indepth content and features.
 ## Table of contents
-1. [**Site Introduction] (#site-introduction)
+1. [Site Introduction] (#site-introduction)
