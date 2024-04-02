@@ -38,19 +38,19 @@
     </header>
     <main>
         <section id="booking-form">
-            <form action="submit.php" method="post">
+            <form action="insert-realign-email-here" method="post">
                 <h2>fill the form below to send a booking enquiry</h2>
                 <label for="firstname">First Name:</label>
-                <input type="text" id="firstname" name="firstname" required>
+                <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
 
                 <label for="lastname">Surname:</label>
-                <input type="text" id="lastname" name="lastname" required>
+                <input type="text" id="lastname" name="lastname" placeholder="Surname" required>
 
                 <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" required>
+                <input type="tel" id="phone" name="phone" placeholder="Mobile Number" required>
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
 
                 <label for="age">Age:</label>
                 <select id="age" name="age" required>
@@ -70,9 +70,9 @@
                     <option value="other">Other</option>
                     <option value="preferNotToSay">Prefer not to say</option>
                 </select>
-
+                <h3>Select a Treatment</h3>
                 <div class="treatment-group">
-                    <h3>Select a Treatment</h3>
+                    
                     <div class="treatment-option">
                         <input type="radio" id="treatment1" name="treatment" value="treatment1">
                         <label for="treatment1">Full Body MOT</label>
@@ -111,7 +111,7 @@
                         
                     </div>
                 </div>
-                <label for="problemDescription">Problem Description:</label>
+                <label for="problemDescription" class="ta-title">Problem Description:</label>
                 <textarea id="problemDescription" name="problemDescription" rows="4"
                     placeholder="Enter a description of your injury or reason for booking here (optional)"></textarea>
                 <div class="terms">

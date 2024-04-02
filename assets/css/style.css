@@ -26,16 +26,20 @@ body {
     flex-direction: column;
     color: #fcb935;
 }
+
 .nomargin {
     margin: 0px;
 }
+
 .hidden-heading {
     display: none;
 }
+
 img {
     max-width: 50vh;
     max-height: 50vh;
 }
+
 .parallax {
     /* The image used */
     background-image: url("../images/screenshot.2.png");
@@ -70,7 +74,7 @@ header a {
 
 h1 {
     letter-spacing: 2px;
-    color: #fcb935;   
+    color: #fcb935;
     border-radius: 20px;
     text-align: center;
     padding: 15px 0 10px 60px;
@@ -119,6 +123,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main */
 main {
     margin-top: 74px;
@@ -269,6 +274,7 @@ main {
     display: flex;
 
 }
+
 .map iframe {
     width: 100%;
 }
@@ -300,6 +306,7 @@ footer {
     position: fixed;
     width: 100%;
 }
+
 #social-media i {
     color: #fcb935;
     text-decoration: none;
@@ -372,51 +379,59 @@ footer {
     font-size: 130%;
     padding: 50px;
 }
+
 #treatments a {
     color: #fcb935;
 }
+
 #treatments a:hover {
     color: #121f28;
     background-color: #fcb935;
 }
+
 #treatments h2,
 h3 {
     text-transform: uppercase;
     padding: 10px;
 }
+
 /* Footer button */
 #book {
     display: flex;
     align-self: center;
     justify-content: center;
 }
+
 .booking-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #121f28; /* Change color as needed */
+    background-color: #121f28;
+    /* Change color as needed */
     color: #fcb935;
     text-decoration: none;
     border-radius: 5px;
     font-size: 200%;
     transition: background-color 0.3s ease;
-  }
-  
-  .booking-btn:hover {
+}
+
+.booking-btn:hover {
     /* Invert colours when hovering to show when selected*/
     background-color: #fcb935;
     color: #121f28;
-  }
-  
-  
-  /* Booking page */
-  #booking-form {
+}
+
+
+/* Booking page */
+#booking-form {
     padding: 12% 0 24% 0;
-  }
-  form h2 {
+}
+
+form h2 {
     padding: 0 0 20px 0;
     text-transform: uppercase;
-  }
-  form {
+}
+
+form {
     max-width: 400px;
     margin: 0 auto;
     background-color: rgba(18, 31, 40, 0.9);
@@ -424,63 +439,73 @@ h3 {
     border-radius: 10px;
     color: #fcb935;
     text-align: center;
-  }
-  textarea {
+}
+
+textarea {
     width: calc(100% - 10px);
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    resize: vertical; /* Allow vertical resizing */
-  }
-  label {
+    resize: vertical;
+}
+
+label {
     display: block;
     margin-bottom: 5px;
-  }
+}
 
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  select {
-    width: 50%;
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
-
-  select {
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select, textarea ::placeholder {
+    text-align: center;
+}
+select {
     width: 100%;
-  }
+}
 
-  input[type="radio"] {
+input[type="radio"] {
     margin-bottom: 5px;
     margin-right: 5px;
-  }
-
-  .treatment-group {
+}
+.ta-title {
+    font-size: 120%;
+    text-transform: uppercase;
+}
+.treatment-group {
     margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+}
 
-  .treatment-option {
+.treatment-option {
     flex: 0 0 calc(33.33% - 10px);
-  }
+}
 
-  button[type="submit"] {
+button[type="submit"] {
     background-color: #fcb935;
     color: #121f28;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     cursor: pointer;
     display: block;
     margin: 20px auto 0;
-  }
+}
 
 
 
@@ -605,8 +630,16 @@ h3 {
         border: 0;
         border-radius: 0px 20px 20px 0px;
     }
+
     .map iframe {
         border-radius: 0 20px 20px 0;
+    }
+
+
+    /* Booking page */
+
+    form {
+        max-width: 600px;
     }
 }
 
@@ -654,27 +687,28 @@ h3 {
         background-color: #fcb935;
 
     }
-/* Treatments */
-/* Main */
-.treatment {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    flex-direction: row;
-    align-items: flex-start;
-    align-items: center;
-    justify-content: center;
-  }
 
-  .treatment-text {
-    flex: 1;
-    margin: 0 20px 20px 0;
-  }
+    /* Treatments */
+    /* Main */
+    .treatment {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        flex-direction: row;
+        align-items: flex-start;
+        align-items: center;
+        justify-content: center;
+    }
 
-  .treatment-img {
-    flex: 0 0 30%;
-    order: 1;
-  }
+    .treatment-text {
+        flex: 1;
+        margin: 0 20px 20px 0;
+    }
+
+    .treatment-img {
+        flex: 0 0 30%;
+        order: 1;
+    }
 
     /* Treatments Footer */
     #social-media {
@@ -682,16 +716,55 @@ h3 {
         display: none;
     }
 
+
+    /* Booking page */
+    #booking-form h2 {
+        padding: 20px;
+    }
+    form {
+        max-width: 900px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    select {
+        width: 75%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    button[type="submit"] {
+        background-color: #fcb935;
+        color: #121f28;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        display: block;
+        margin: 20px auto 0;
+        height: 80px;
+        width: 400px;
+        font-size: larger;
+    }
+    button:hover {
+        background-color: #121f28;
+        color: #fcb935;
+    }
+    
 }
 
 /* Screens that are 1200px or larger */
 
 @media screen and (min-width: 1200px) {
-   /* Header */
-   nav {
-    font-size: 120%;
-   }
-   
+
+    /* Header */
+    nav {
+        font-size: 120%;
+    }
+
     /* Main */
     #benefits {
         display: flex;
@@ -717,24 +790,25 @@ h3 {
     #reasons2 {
         order: 2;
     }
-        /* Treatment Page */
-.treatment {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    flex-direction: row;
-    align-items: flex-start;
-    align-items: center;
-    justify-content: center;
-  }
 
-  .treatment-text {
-    flex: 1;
-    margin: 0 20px 20px 0;
-  }
+    /* Treatment Page */
+    .treatment {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        flex-direction: row;
+        align-items: flex-start;
+        align-items: center;
+        justify-content: center;
+    }
 
-  .treatment-img {
-    flex: 0 0 30%;
-    order: 1;
-  }
+    .treatment-text {
+        flex: 1;
+        margin: 0 20px 20px 0;
+    }
+
+    .treatment-img {
+        flex: 0 0 30%;
+        order: 1;
+    }
 }
