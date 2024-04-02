@@ -467,12 +467,15 @@ select {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-select, textarea ::placeholder {
+select,
+textarea ::placeholder {
     text-align: center;
 }
+
 select {
     width: 100%;
 }
@@ -481,10 +484,12 @@ input[type="radio"] {
     margin-bottom: 5px;
     margin-right: 5px;
 }
+
 .ta-title {
     font-size: 120%;
     text-transform: uppercase;
 }
+
 .treatment-group {
     margin-bottom: 10px;
     display: flex;
@@ -685,7 +690,8 @@ button[type="submit"] {
     .contact-text a:hover {
         color: #121f28;
         background-color: #fcb935;
-
+        padding: 5px;
+        border-radius: 10px;
     }
 
     /* Treatments */
@@ -721,9 +727,11 @@ button[type="submit"] {
     #booking-form h2 {
         padding: 20px;
     }
+
     form {
         max-width: 900px;
     }
+
     input[type="text"],
     input[type="email"],
     input[type="tel"],
@@ -736,6 +744,7 @@ button[type="submit"] {
         border-radius: 4px;
         box-sizing: border-box;
     }
+
     button[type="submit"] {
         background-color: #fcb935;
         color: #121f28;
@@ -749,11 +758,12 @@ button[type="submit"] {
         width: 400px;
         font-size: larger;
     }
+
     button:hover {
         background-color: #121f28;
         color: #fcb935;
     }
-    
+
 }
 
 /* Screens that are 1200px or larger */
@@ -811,8 +821,9 @@ button[type="submit"] {
         flex: 0 0 30%;
         order: 1;
     }
+
     /* Text area size on booking page */
     textarea {
-      width: 80%;
+        width: 80%;
     }
 }
