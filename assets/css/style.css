@@ -811,4 +811,8 @@ button[type="submit"] {
         flex: 0 0 30%;
         order: 1;
     }
+    /* Text area size on booking page */
+    textarea {
+      width: 80%;
+    }
 }
