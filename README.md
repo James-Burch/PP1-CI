@@ -48,6 +48,27 @@ I would like to mention that I am challenging myself to keep this as an on-going
       - Textarea
       - Button
   6. Bugs and fixes
+
+
+## Planning the website
+### Site Purpose
+ - To have clients understand the importance and benefits to getting treatment whilst trying not to overload them with information.
+ - Allow users to enquire to book an appointment using the booking page and selecting the treatment they need.
+ - Give a list of treatments available, with price and an explanation of whats inlcuded in the price.
+ - Show images containing Gav, the man behind realign, to create a familiar face for new clients as they will have already seen him prior to their appointment.
+### Easy to Navigate
+ - I wanted to make my site easy to navigate to ensure that when people land on the site they are able to quickly see key information that naturaly leads you to booking an appointment.
+ - Part of making the site easy to navigate came with the colour scheme I used, I opted for the colours that are very heavily used on the realign instagram and facebook pages, these colours when checked using a colour wheel/palette are a good match. This makes any navigation links easy to read and find your way around the page
+### Target Audience
+- The target audience for this website will be for people who; go to the gym, play sports, have an injury they need help with, have mobility problems, any general pain or muscle soreness and people who may want to get into better shape and maintain their body in general.
+- People who go to the gym.
+- People who play sports.
+- People who have an injury they need help with recovery for.
+- People who have problems with mobility or posture and want to correct this.
+- People who have any general problem areas with pain or muscle soreness.
+- People who want to get generally more active, in better shape and maintain their body to a higher standard via the one-to-one coaching service.
+### How will I achieve all of this?
+
  
     
 
