@@ -344,7 +344,7 @@ footer {
 /* Main */
 /* Treatments section */
 #treatments-title {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-color: rgba(18, 31, 40, 0.6);
     display: flex;
@@ -354,10 +354,9 @@ footer {
 }
 
 #treatments-title h2 {
-    font-size: 400%;
     text-align: center;
-    padding-left: 20px;
-
+    padding-left: 5px;
+    font-size: 50px;
 }
 
 .solidblock {
@@ -644,7 +643,11 @@ button[type="submit"] {
         border-radius: 0 20px 20px 0;
     }
 
-
+    #treatments-title h2 {
+        font-size: 400%;
+        text-align: center;
+        padding-left: 20px;
+    }
     /* Booking page */
 
     form {
@@ -718,6 +721,9 @@ button[type="submit"] {
     .treatment-img {
         flex: 0 0 30%;
         order: 1;
+    }
+    .treatment-text-right {
+        order: 2;
     }
 
     /* Booking page */
@@ -800,26 +806,7 @@ button[type="submit"] {
     }
 
     /* Treatment Page */
-    .treatment {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-        flex-direction: row;
-        align-items: flex-start;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .treatment-text {
-        flex: 1;
-        margin: 0 20px 20px 0;
-    }
-
-    .treatment-img {
-        flex: 0 0 30%;
-        order: 1;
-    }
-
+    
     /* Text area size on booking page */
     textarea {
         width: 80%;
