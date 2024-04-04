@@ -702,6 +702,17 @@ button[type="submit"] {
     }
 
     /* Treatments */
+
+    #benefits {
+        display: flex;
+        flex-direction: column;
+    }
+    #circle-image {
+        order: 1;
+    }
+    #reasons2 {
+        order: 2;
+    }
     /* Main */
     .treatment {
         display: flex;
