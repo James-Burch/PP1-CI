@@ -415,6 +415,7 @@ h3 {
     border-radius: 5px;
     font-size: 200%;
     transition: background-color 0.3s ease;
+    margin: 5px;
 }
 
 .booking-btn:hover {
