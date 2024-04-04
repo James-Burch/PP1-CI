@@ -767,7 +767,12 @@ button[type="submit"] {
         color: #fcb935;
         border: 2px solid #fcb935;
     }
-
+#social-media i:hover {
+    color:#121f28;
+    background-color: #fcb935;
+    border-radius: 5px;
+    padding: 0 1px;
+}
 }
 
 /* Screens that are 1200px or larger */
