@@ -53,7 +53,10 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.footer-hr {
+    width: 50%;
+    padding-left: 25%;
+}
 /* Header */
 header {
     background-color: #121f28;
@@ -716,13 +719,6 @@ button[type="submit"] {
         order: 1;
     }
 
-    /* Treatments Footer */
-    #social-media {
-        /* Remove social media bar to allow space for appointment booking button */
-        display: none;
-    }
-
-
     /* Booking page */
     #booking-form h2 {
         padding: 20px;
@@ -762,6 +758,7 @@ button[type="submit"] {
     button:hover {
         background-color: #121f28;
         color: #fcb935;
+        border: 2px solid #fcb935;
     }
 
 }
