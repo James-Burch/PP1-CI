@@ -217,7 +217,7 @@ main {
 /* Contact us section */
 #contact {
     background: url("../images/screenshot.1.png") no-repeat center center/cover;
-    height: 600px;
+    height: 350px;
     width: 100%;
     position: relative;
     margin: 0 auto;
@@ -516,11 +516,6 @@ button[type="submit"] {
 }
 
 
-
-/* Media query: larger and landscape phones */
-
-@media screen and (min-width: 576px) {}
-
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
@@ -608,7 +603,9 @@ button[type="submit"] {
         text-align: center;
         margin: 20px 100px 20px 100px;
     }
-
+#contact {
+    height: 450px;
+}
     /* Footer */
 
     /* Location section */
@@ -692,6 +689,7 @@ button[type="submit"] {
     /* Contact */
     #contact {
         font-size: 150%;
+        height: 600px;
     }
 
     .contact-text a:hover {
