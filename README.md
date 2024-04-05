@@ -78,10 +78,13 @@ I would like to mention that I am challenging myself to keep this as an on-going
    - The reason he wanted the booking to be done this way is because he prides himself on making his treatments bespoke to every client, ie he does not want to accept a shorter appointment for a new client with no prior knowledge, by filling out the booking form this gives new clients a chance to give some information about their reason for booking and Gav can then contact and advise which treatment will be best suited.
    - I planned to consult Gav whilst making the website to ensure that things were looking and including the correct information as he imagined. This way the website will convey the image that he wants to bring across to any returning customer and potential new customers.
    - I wanted to write code for different ways parts of the page can be displayed and send screenshots to him so that he can decide which one best displays his image. Below will be an example of one of the many options he had to chose from, the choice he made is now the final look:
-     ** Leave space for screenshots of header options
+
+<img width="25%" alt="" src=""> <img width="25%" alt="" src=""> <img width="25%" alt="" src=""> <img width="25%" alt="" src="">
+
 
 - Tools and extensions I plan to use to achieve my goal:
   - HTML and CSS validators, although being taught to use this at the end of the process I wanted to use this tool often throughout the process to check my code and make sure that there was not any invalid code that is inevitably redundent, this will also check for spelling errors in CSS.
+  - 
     
  
     
