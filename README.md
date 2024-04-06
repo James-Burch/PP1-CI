@@ -79,8 +79,10 @@ I would like to mention that I am challenging myself to keep this as an on-going
    - I planned to consult Gav whilst making the website to ensure that things were looking and including the correct information as he imagined. This way the website will convey the image that he wants to bring across to any returning customer and potential new customers.
    - I wanted to write code for different ways parts of the page can be displayed and send screenshots to him so that he can decide which one best displays his image. Below will be an example of one of the many options he had to chose from, the choice he made is now the final look:
 
-
-
+![Image showing the first option for header looks](assets/images/readme-images/option1header.jpeg)
+![Image showing the second option for header looks](assets/images/readme-images/option2header.jpeg)
+![Image showing the third option for header looks](assets/images/readme-images/option3header.jpeg)
+![Image showing the fourth option for header looks](assets/images/readme-images/option4header.jpeg)
 
 - Tools and extensions I plan to use to achieve my goal:
   - HTML and CSS validators, although being taught to use this at the end of the process I wanted to use this tool often throughout the process to check my code and make sure that there was not any invalid code that is inevitably redundent, this will also check for spelling errors in CSS.
