@@ -111,6 +111,17 @@ I would like to mention that I am challenging myself to keep this as an on-going
 
 ## Features/Elements of each individual page
 
+### index.html - Home Page
+
+#### Welcome Section
+- The welcome section contains a h2 element which explains to the user what the site is offering/specialises in, the p element below contains a short paragraph of text which explains where Realign is based, services offered and letting people know that their body should be no.1! I wanted to keep this short and sweet so people have a little bit about what, where and why, then want to read on for more.
+![Image showing the welcome section](assets/images/readme-images/welcome-section.png)
+
+#### Reasons/Benefits Section
+
+- The reasons/benefits section is what the user will scroll down to see next which consists of 6 seperate benefits to having treatment each containing a h3 element with the benefit and a p element containing a short description of the benefit. This was purposefully placed below the welcome section as it explains generically what a potential customer will expect to get and feel after recieving treatment whilst not overloading with information. There is also a circle image used with changes position dependent on screen size, on sizes 768px+ and 992px+ the text is aligned half to the left and half to the right. On screen sizes 1200px+ the image is centered with the text 3 benefits either side. I decided to do this as I really liked the idea when doing the love running project and decided to try and replicate this, however I have added my own look on screen sizes of 992px+. This gave a sleek easy to read design, I consulted with Gav to check that he was happy with the text that Chatgpt wrote to fill these reasons and that he was happy with how it displayed on each screen size.
+
+![Image to show the reasons/benefits section](assets/images/readme-images/reasons/benefits-section)
 
     
 
