@@ -78,17 +78,40 @@ I would like to mention that I am challenging myself to keep this as an on-going
    - The reason he wanted the booking to be done this way is because he prides himself on making his treatments bespoke to every client, ie he does not want to accept a shorter appointment for a new client with no prior knowledge, by filling out the booking form this gives new clients a chance to give some information about their reason for booking and Gav can then contact and advise which treatment will be best suited.
    - I planned to consult Gav whilst making the website to ensure that things were looking and including the correct information as he imagined. This way the website will convey the image that he wants to bring across to any returning customer and potential new customers.
    - I wanted to write code for different ways parts of the page can be displayed and send screenshots to him so that he can decide which one best displays his image. Below will be an example of one of the many options he had to chose from, the choice he made is now the final look:
-
-![Image showing the first option for header looks](assets/images/readme-images/option1header.jpeg)
-![Image showing the second option for header looks](assets/images/readme-images/option2header.jpeg)
-![Image showing the third option for header looks](assets/images/readme-images/option3header.jpeg)
-![Image showing the fourth option for header looks](assets/images/readme-images/option4header.jpeg)
+   
+    <img src="assets/images/readme-images/option1header.jpeg" width="400px" height="400px" alt="Image showing the first option for header looks">
+    <img src="assets/images/readme-images/option2header.jpeg" width="400px" height="400px" alt="Image showing the second option for header looks">
+    <img src="assets/images/readme-images/option3header.jpeg" width="400px" height="400px" alt="Image showing the third option for header looks">
+    <img src="assets/images/readme-images/option4header.jpeg" width="400px" height="400px" alt="Image showing the fourth option for header looks">
 
 - Tools and extensions I plan to use to achieve my goal:
   - HTML and CSS validators, although being taught to use this at the end of the process I wanted to use this tool often throughout the process to check my code and make sure that there was not any invalid code that is inevitably redundent, this will also check for spelling errors in CSS.
-  - 
-    
- 
+- Chatgpt was used to generate the text which replaced the random placeholder text which cosists of the explanations of the benefits to treatment and the information on each treatment.
+- I used and image file converter to change the images displayed on the website from .png files to .webp as this increased my google lighthouse score and allowed the images to load clearer.
+- I used W3 Schools to learn how to add the code for the parallax effect and how to add links and images into readme.md files.
+- Favicon to add the favicon next to the title of the page when you are on it.
+- Font-awesome for the icons used.
+
+## Features/Elements used on every page
+
+### Header
+- The same header was used on every page which I made resposive. On mobile devices this would display with the logo and a font-awesome icon of 2 horizontal lines to give a sleek simple look without crowding the space, when pressed the icon drops down into a navbar menu which showcases 4 links: Home, Contact Us, Treatments, Book and appointment, when clicked/pressed this takes you to the respective page or area of the page if you click contact us. No matter what page you are on you can always easily get to where you need to be as the navbar stayed fixed at the top of the page. 
+
+<img src="assets/images/readme-images/navbar-mobile.png" width="250px" height="300px" alt="Image of the navbar drop down on mobile">
+
+- The image below shows how the navbar looks on all screen sizes larger than 768px. It displays this way on every page and also underlines the active page so that the user can easily tell which page they are on.
+<img src="assets/images/readme-images/navbar-desktop.png"  alt="Image of the navbar on larger screens">
+
+### Main Element
+- This element has been used to house the majority of each pages content, the focal point of each respective page. Any information that is relevant to the page and any images that need showcasing.
+
+### Footer
+- The footer element has been used on every page with all of them housing the social media icons with links to each respective social media page. The icons are responsive and invert colours when hovered over on laptops and desktop. Each link opens in a new tab, the footer is also fixed to the bottom of the page on each page.
+  <img src="assets/images/readme-images/footer.png"  alt="Image of the footer on all screen sizes">
+
+## Features/Elements of each individual page
+
+
     
 
   
