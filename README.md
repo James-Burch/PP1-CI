@@ -1,7 +1,7 @@
 # Realign Cambs
 ## Site Introduction
 Realign is a real business that specialises in deep tissue massage, sports massage, injury recovery and one on one coaching. The website had been made to showcase information about treatments that are offered and the positive impact they will have on your life. The users of the website will be able to find information about the company and the man behind the business, postitive benefits of having treatment, all of the treatments that are offered, where to find the company on social media and contact information with a booking page where there is an easy to navigate form to get booked in for the correct treatment.
-<img width="913" alt="amiresponsive ss" src="https://github.com/James-Burch/PP1-CI/assets/161542248/59f7f289-5dd3-4daa-a671-c7ba274c8106">
+![Image of am I responsive showcasing my site](assets/images/readme-images/amiresponsive-final.png)
 ## Ongoing Project
 I would like to mention that I am challenging myself to keep this as an on-going project that will eventually be used as the official website for 'Realign' where clients can book appointments, get information on treatments and eventually have their own accounts with access granted to more indepth content and features.
 ## Table of contents
@@ -79,7 +79,7 @@ I would like to mention that I am challenging myself to keep this as an on-going
    - I planned to consult Gav whilst making the website to ensure that things were looking and including the correct information as he imagined. This way the website will convey the image that he wants to bring across to any returning customer and potential new customers.
    - I wanted to write code for different ways parts of the page can be displayed and send screenshots to him so that he can decide which one best displays his image. Below will be an example of one of the many options he had to chose from, the choice he made is now the final look:
 
-<img width="25%" alt="" src=""> <img width="25%" alt="" src=""> <img width="25%" alt="" src=""> <img width="25%" alt="" src="">
+
 
 
 - Tools and extensions I plan to use to achieve my goal:
