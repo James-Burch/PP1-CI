@@ -104,6 +104,7 @@ I would like to mention that I am challenging myself to keep this as an on-going
 
 ### Main Element
 - This element has been used to house the majority of each pages content, the focal point of each respective page. Any information that is relevant to the page and any images that need showcasing.
+- Each page showcases a background image with the parallax scrolling effect targetting the body element of each page. This allows the user to see an image of a customer undergoing treatment by realign (Gav), I have done this to try and create a sense of familiarity and if a new customer decides to book they know who to look for.
 
 ### Footer
 - The footer element has been used on every page with all of them housing the social media icons with links to each respective social media page. The icons are responsive and invert colours when hovered over on laptops and desktop. Each link opens in a new tab, the footer is also fixed to the bottom of the page on each page.
@@ -117,13 +118,56 @@ I would like to mention that I am challenging myself to keep this as an on-going
 - The welcome section contains a h2 element which explains to the user what the site is offering/specialises in, the p element below contains a short paragraph of text which explains where Realign is based, services offered and letting people know that their body should be no.1! I wanted to keep this short and sweet so people have a little bit about what, where and why, then want to read on for more.
 ![Image showing the welcome section](assets/images/readme-images/welcome-section.png)
 
-#### Reasons/Benefits Section
+#### Reasons/Benefits
 
+- H2 element with 'Why should you get treatment with us? to entice the user to read through and answer that question.
 - The reasons/benefits section is what the user will scroll down to see next which consists of 6 seperate benefits to having treatment each containing a h3 element with the benefit and a p element containing a short description of the benefit. This was purposefully placed below the welcome section as it explains generically what a potential customer will expect to get and feel after recieving treatment whilst not overloading with information. There is also a circle image used with changes position dependent on screen size, on sizes 768px+ and 992px+ the text is aligned half to the left and half to the right. On screen sizes 1200px+ the image is centered with the text 3 benefits either side. I decided to do this as I really liked the idea when doing the love running project and decided to try and replicate this, however I have added my own look on screen sizes of 992px+. This gave a sleek easy to read design, I consulted with Gav to check that he was happy with the text that Chatgpt wrote to fill these reasons and that he was happy with how it displayed on each screen size.
 
-![Image to show the reasons/benefits section](assets/images/readme-images/reasons/benefits-section)
+![Image to show the reasons/benefits section](assets/images/readme-images/reasons-section.png)
 
-    
+#### Contact Us
 
-  
+- The contact section displays a background image to break up the page from the parallax image, it has an element that is centered to the page which showcases the social media links, these links open in a new page. Although each social media icon is in the footer element on each page this ensures that users do not miss the contact links and whatsapp phone number.
+
+![Image shwoing the contact us section](assets/images/readme-images/contact-us.png)
+
+#### Location/Address
+
+- This section inlcudes the google iFrame map showcasing the general area to find realign. This is an interactive map and a link can be clicked to open directions into users map to easily arrive at the destination.
+- This section also includes the address incase the google iFrame is not working or people would rather input the address into a map manually and helps with locating exactly where once you arrive.
+- This section has been made responsive using flex-box.
+  - Originally I had a lot of trouble making this section fully responsive on all screen sizes using flex-box, however afer some thought and playing around on flex froggy game I figured out that the problem lied with the class I was targeting in my CSS. Once I realised this I was able to achieve the fully responsive effect I wanted.
+
+![Image to show the location section on larger screens](assets/images/readme-images/location-section.png)
+
+On mobile the address and map stack ontop of one another and take up 100% of the screen width, this was done to make it easier to read and look sleeker on a narrower screen.
+
+![Image to show the location section on mobile screens](assets/images/readme-images/location-mobile.png)
+
+### treatments.html - Treatments Page
+
+#### Treatments title
+
+- This section is the part of the treatments page that the user will first see when they land on the page. I wanted the title to be take up 100% of the screen and be displayed in larger bold text so catch the eye of the user and make it clear what to expect on this page.
+
+![Image showing the landing page for the treatments section](assets/images/readme-images/treatments-landing.png)
+
+#### Treatments List
+
+- This section contains information on 6 different treaments that are offered, inlcuding price, time that the treatment takes, information on what to expect during the treatment and finally an image alongside.
+- For smaller screens the text and image show in columns so that as you read you see the image for each treatment below. I will stress that every image is not directly linked to each treatment but some show before and afters of the treatment and some show general session being done, these are all real images supplied by realign themselves.
+- For the larger screen sizes 992px and above I have used flex-box to display each treatment text beside the respective image. I have also made the text and image alternate each side to give a better look and user expereience when reading through.
+- I have also used HR elements to break up each treatment to make it clear what text is relevant to each treatment
+
+![Image showing one of the treatments information and how it is displayed on the page](assets/images/readme-images/treatments-info.png)
+
+#### Treatment Footer
+
+- I have added an extra element onto the footer on the treatments page which is a button to direct users to the booking page as they will naturally scroll down through the treatments then potentially book, even if they do not plan on booking there is a big button prompting them to click to book so they may click and end up enquiring.
+- I have added a HR element with a margin to seperate the two footer elements.
+- When the button is hovered over on larger screens the colours invert to make it clear that it is a button to be clicked. I have also added some finger pointing icons from font-awesome to prompt a mobile/tablet user to press the button with their finger.
+
+![Image showing the button without hovering](assets/images/readme-images/clicktobook-nohover.png) ![Image showing the button when hovered over](assets/images/readme-images/clicktobook-hover.png)
+
+### booking.html - Booking Page
 
