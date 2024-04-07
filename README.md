@@ -224,3 +224,15 @@ The below image is showing the terms of booking (including the policy for cancel
 #### Booking information form dump
 - I have included a successful form completion to show that the form collects and sends the data correctly
 ![Image to show the form information once completed](assets/images/readme-images/booking-confirmation.png)
+
+### Testing Table
+
+| What I am testing? | How I tested it| Expected Outcome | Result |
+| -- | -- | -- | -- |
+| All a href links work on all pages| Go onto my deployed project and click each link| Each link to work and land on the correct page and open in a new window if necassary| Pass |
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
