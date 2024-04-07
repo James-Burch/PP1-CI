@@ -171,5 +171,12 @@ On mobile the address and map stack ontop of one another and take up 100% of the
 
 ### booking.html - Booking Page
 
-#### 
+#### Booking form 
+- I have created the booking form baring in mind there may be new customers and returning customers using the booking system, for this reason some of the parts of the form are not 'required'. I also discussed how Gav wanted this to work as he does not currenlty have a calender setup with times and dates for people to book as he likes to speak with people before they have treatment to ensure they are booking in for the correct treatment and time slot. The current form is designed to 'enquire' prior to getting a set in stone date for an appointment. The idea I had was the form to be filled and automatically open a whatsapp chat with Gav and have the completed form details displayed, then a response from realign will  be offering a time slot which the customer will accept or reject.
+- I have added a simple format to the booking form so that the user can fill out each part and read on below to complete and submit the form. It consists of First Name, Last Name, Email, Phone number, age and gender, which treatment (not required as someone may want to enquire as to what treatment they need), textarea for describing an injury or reason for booking, a terms tickbox which is required to ensure the user understands the booking policy and finally a submit button which will send off the information to realign.
+ - The reason a treatment or reason is not required is to allow people that know which treatment they want to book by selecting the treatment and not listing a problem, also for people who do not know what treatment is needed so they can fill out the text area with their problem. Especially for the treatments that have not got set prices.
+- The deployed site only uses the code institute form dump link to ensure that the form works, linking the form up to the whatsapp chat or email chain with realigns details is something that I plan on fine tuning for my ongoing project.
+
+![Image that shows the landing screen of the booking page](assets/images/readme-images/landing-bookingpage.png) ![](assets/images/readme-images/)
+  
 
