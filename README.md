@@ -47,7 +47,9 @@ I would like to mention that I am challenging myself to keep this as an on-going
         - Option
       - Textarea
       - Button
-  6. Bugs and fixes
+  6. Testing
+  7. Bugs and fixes
+  8.
 
 
 ## Planning the website
@@ -177,6 +179,48 @@ On mobile the address and map stack ontop of one another and take up 100% of the
  - The reason a treatment or reason is not required is to allow people that know which treatment they want to book by selecting the treatment and not listing a problem, also for people who do not know what treatment is needed so they can fill out the text area with their problem. Especially for the treatments that have not got set prices.
 - The deployed site only uses the code institute form dump link to ensure that the form works, linking the form up to the whatsapp chat or email chain with realigns details is something that I plan on fine tuning for my ongoing project.
 
-![Image that shows the landing screen of the booking page](assets/images/readme-images/landing-bookingpage.png) ![](assets/images/readme-images/)
-  
+The below image is showing the landing page the user will see when first clicking onto the booking page. Clearly indicating the user should fill the form to send a booking enquiry. Each text box includes a placeholder with the relevant information to ensure the user know what to insert in each box, including the phone number suggesting to leave no spaces between numbers.
 
+![Image that shows the landing screen of the booking page](assets/images/readme-images/landing-bookingpage.png)
+
+The below image is showing the section of the form that includes the treatment radio buttons which will allow the user to select only 1 treatment and the textarea box to insert any additional information on reason for booking or injury problems. Both include large bold text to clearly indicate what the user needs to do in each section.
+
+![Image to show the treatments and description of injury box on the booking form](assets/images/readme-images/textarea-bookingpage.png)
+
+The below image is showing the terms of booking (including the policy for cancelling or rescheduling) and the submit to book button. The user will not be able to continue and submit unless they have ticked the checkbox to say they have read the terms.
+
+![Image to show the terms of booking text and submission button](assets/images/readme-images/termsandsubmission-bookingpage.png)
+
+- The submit button inverts colours and add a border when hovered over on screen sizes 992px and above to make it clear that click this area will submit the booking enquiry.
+
+
+### Testing
+
+#### W3 Validation and Lighthouse scores
+
+- I actually used these 3 validations throughtout creating my project to ensure that there were not any errors along the way. I found this helpful as it allowed me to remove redundant code.
+
+  ##### HTML Validation
+  - When checking the HTML code there were no erros. See below screen captures for each html page.
+###### Home page validation
+![Image to show the html validation for the home page](assets/images/readme-images/w3-index.html-validation.png)
+###### Treatments page validation
+![Image to show the html validation for the treatments page](assets/images/readme-images/w3-treatments.html-validation.png)
+###### Booking page validation
+![Image to show the html validation for the booking page](assets/images/readme-images/w3-booking.htnl-validation.png)
+
+##### CSS Validation
+- When checking the CSS code there were also no errors in the code. See below screen capture for CSS.
+![Image to show the style.css validation](assets/images/readme-images/w3-style.css-validation.png)
+
+##### Lighthouse scores for all 3 pages
+###### Home Page
+![Image to show the lighthouse score for home page](assets/images/readme-images/index.html-lighthouse.png)
+###### Treatments Page
+![Image to show the lighthouse score for the treatments page](assets/images/readme-images/treatments.html-lighthouse.png)
+###### Booking Page
+![Image to show the lighthouse score for the booking page](assets/images/readme-images/booking.html-lighthouse.png)
+
+#### Booking information form dump
+- I have included a successful form completion to show that the form collects and sends the data correctly
+![Image to show the form information once completed](assets/images/readme-images/booking-confirmation.png)
