@@ -41,7 +41,7 @@ I would like to mention that I am challenging myself to keep this as an on-going
 
 - Tools and extensions I plan to use to achieve my goal:
   - HTML and CSS validators, although being taught to use this at the end of the process I wanted to use this tool often throughout the process to check my code and make sure that there was not any invalid code that is inevitably redundent, this will also check for spelling errors in CSS.
-- Chatgpt was used to generate the text which replaced the random placeholder text which cosists of the explanations of the benefits to treatment and the information on each treatment.
+- Chatgpt was used to generate the text which replaced the random placeholder text which consists of the explanations of the benefits to treatment and the information on each treatment.
 - I used and image file converter to change the images displayed on the website from .png files to .webp as this increased my google lighthouse score and allowed the images to load clearer.
 - I used W3 Schools to learn how to add the code for the parallax effect and how to add links and images into readme.md files.
 - Favicon to add the favicon next to the title of the page when you are on it.
