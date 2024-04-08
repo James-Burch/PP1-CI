@@ -4,54 +4,6 @@ Realign is a real business that specialises in deep tissue massage, sports massa
 ![Image of am I responsive showcasing my site](assets/images/readme-images/amiresponsive-final.png)
 ## Ongoing Project
 I would like to mention that I am challenging myself to keep this as an on-going project that will eventually be used as the official website for 'Realign' where clients can book appointments, get information on treatments and eventually have their own accounts with access granted to more indepth content and features.
-## Table of contents
-1. Site Introduction 
-2. Ongoing Project
-3. Planning Stage
-   - Purpose of the site
-   - Easy to navigate
-   - Target audience
-   - Colour Scheme
-   - How will I achieve this?
-4. Features/elements used on each page
-   - Header element
-      - Logo
-      - Navigation Bar
-   - Main element
-   - Footer element
-      - Social Media
-      - Booking page button
-5. Features/elements used on individual pages
-   - index.html Home Page
-     - Welcome
-     - Reasons/Benefits
-     - Contact Information/Social Media links
-     - Location
-       - Address
-       - Google iFrame map
-  - treatments.html Treatments Page
-     - Treatments Title
-     - Treatments list with prices
-       - Information for what each treatment is
-     - Treatments Footer
-       - Click to book button (Linked to booking page)
-  - booking.html Booking Page
-    - Form Element
-      - Input
-        - text
-        - email
-        - tel
-        - radio
-        - checkbox
-      - Select
-        - Option
-      - Textarea
-      - Button
-  6. Testing
-  7. Bugs and fixes
-  8.
-
-
 ## Planning the website
 ### Site Purpose
  - To have clients understand the importance and benefits to getting treatment whilst trying not to overload them with information.
