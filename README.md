@@ -61,6 +61,7 @@ I would like to mention that I am challenging myself to keep this as an on-going
 ### Easy to Navigate
  - I wanted to make my site easy to navigate to ensure that when people land on the site they are able to quickly see key information that naturaly leads you to booking an appointment.
  - Part of making the site easy to navigate came with the colour scheme I used, I opted for the colours that are very heavily used on the realign instagram and facebook pages, these colours when checked using a colour wheel/palette are a good match. This makes any navigation links easy to read and find your way around the page
+ - I opted not to choose a font for my project and import it as I could not decide, when discussed with realing we decided the default font looked good and fit the site well so this is what I decided to stick too.
 ### Target Audience
 - The target audience for this website will be for people who; go to the gym, play sports, have an injury they need help with, have mobility problems, any general pain or muscle soreness and people who may want to get into better shape and maintain their body in general.
 - People who go to the gym.
@@ -229,10 +230,39 @@ The below image is showing the terms of booking (including the policy for cancel
 
 | What I am testing? | How I tested it| Expected Outcome | Result |
 | -- | -- | -- | -- |
-| All a href links work on all pages| Go onto my deployed project and click each link| Each link to work and land on the correct page and open in a new window if necassary| Pass |
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
+| Nav links | Click each link | Nav links take me to correct page | Pass |
+| Horizontal scroll | Check every page on each screen size | No horizontal scroll | Pass |
+| Social links | Click each link/social icon | Open in a new tab on the respective social media | Pass |
+| Form submission | Fill out form and click submit | Code institute form dump with info display | Pass |
+| Each form section only accepts letters or numbers | Try to enter characters not suited to each section | Does not allow me to submit form | Pass |
+| Check responsiveness | Check every page on each screen size | Every page be readable and easy to navigate | Pass |
+| Test website displays well on other browsers | Open my link on other browsers | Website will look good on each browser | Pass |
+
+### Future Enhancements
+- In  future as this is an ongoing project there are many things that I would like to add such as:
+  - A calendar for booking an appointment so that users can select a date and time that works for them that realign have available to speed up the booking process.
+  - Add the correct link to the whatsapp section to ensure this links directly to a whatsapp chat with realign.
+  - Add a login section where realign can setup an account for users that are paying for one-to-one coaching or an injury support package which will contain extra content that is personalised to that specific user.
+  - Create a page where realign can upload any content from events or recent offers available for users to see (this sections needs to be accesable only by realign).
+  - I would like to create a cooler loading effect when scrolling down where each section slowly loads in as you scroll down, this will improve the whole UX and look of the site.
+  - Improve the sizing of certain images and even replace some images for higher quality pictures.
+
+### Deployment
+How I deployed my site
+1. Open the repository on github
+2. Click on the settings button
+3. Once open click on pages
+4. Once on pages select the branch drop down and change to main
+5. Wait for the site to deploy
+- Link to the live site [Click here](https://james-burch.github.io/PP1-CI/)
+
+### Credits
+- I used the love running project to help with the responsive drop down navbar and the reasons section but styled differently to fit my page and needs
+- I used Font awesome for all of the icons on the page
+- I used colour pipette to pick the colours for my website from the main logo of realign. I then checked that they were a good colour pallette on canva.
+- I used google maps to get the iFrame for the map location (this sadly pulls my lighthouse score down despite trying the fix that lighthouse suggest)
+- I also used a file converter website to change my image files from .png to .webp where necassary
+- Thanks to realign for supplying the images/media
+- Chatgpt for supplying the text displayed to explain each treatment and the benefits. I also used this to check my spelling and grammar on the readme.md file.
+- Thanks to my mentor Alan for giving me little tips and suggestions to fine tune my website.
+- Thanks to a few other students for helping me by pointing me in the direction when I got stuck or wanted to try a new idea
